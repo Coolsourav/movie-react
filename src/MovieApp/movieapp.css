@@ -1,0 +1,28 @@
+.hero {
+    background-image: url('./images/slider-bg.jpg');
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.btn{
+    border-radius: 50px;
+}
+form:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0,0.7);
+}
+.card{
+  transition: .3s ease-in-out;
+}
+.card-txt{
+  transition: .3s ease-in-out;
+  cursor: pointer;
+  font-size: 17px;
+}
+.card:hover{
+  scale: 1.08;
+}
+.card-txt:hover{
+  scale: 1.05;
+}
